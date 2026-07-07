@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Pete's Pizza Delivery</h1>
+        <h2>Online Order Form</h2>
+        <h5>required fields</h5>
+    </center>
+    <fieldset style="width: 780px; height: 270px;">
+        <legend>Customer details</legend>
+        <table>
+        <tr>
+            <td>
+                <ul type="disc">
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                </li><br>
+                <li>
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" required>
+                </li><br>
+                <li>
+                    <label for="city">Town/city:</label>
+                    <input type="text" id="city" required>
+                </li><br>
+                <li>
+                    <label for="Postcode">Postcode:</label>
+                    <input type="number" id="Postcode" required>
+                </li><br>
+                <li>
+                    <label for="Tel">Tel:</label>
+                    <input type="number" id="Tel" required>
+                </li><br>
+                <li>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </li><br>
+                </ul>
+            </td>
+        </tr>
+        </table>
+    </fieldset>
+    <table cellpadding="10">
+        <tr>
+            <td>
+                <fieldset style="width: 220px; height: 130px;">
+                    <legend>Topping</legend>
+                    <input type="radio" name="Topping">Margherita<br>
+                    <input type="radio" name="Topping">Four Seasons<br>
+                    <input type="radio" name="Topping">Meat Feast<br>
+                    
+                </fieldset>
+            </td>
+            <td>
+                <fieldset style="width: 220px; height: 130px;">
+                    <legend>Size</legend>
+                    <input type="radio" name="Size">Small<br>
+                    <input type="radio" name="Size">Medium<br>
+                    <input type="radio" name="Size">Large<br>
+                    
+
+                </fieldset>
+            </td>
+            <td>
+                <fieldset style="width: 220px; height: 130px;">
+                    <legend>Extras</legend>
+                    <input type="checkbox" name="Extras">Mushrooms<br>
+                    <input type="checkbox" name="Extras">Green peppers<br>
+                    <input type="checkbox" name="Extras">Anchovies<br>
+                    <input type="checkbox" name="Extras">Extra cheese<br>
+
+                </fieldset>
+            </td>
+        </tr>
+    </table>
+    <fieldset style="width: 780px; height: 200px;">
+        <legend>Delivery</legend>
+        <tr>
+            <td>Preferred delivery time:</td>
+            <td><input type="time"</td>
+        </tr><br><br>
+        <tr>
+            <td>Delivery instructions:</td>
+        </tr><br><br>
+        <tr>
+            <td><textarea rows="6" cols="80"></textarea></td>
+        </tr>
+    </fieldset>
+    <table>
+    <tr>
+        <td align="center">
+            <button type="submit">Submit order</button>
+        </td>
+    </tr>
+    </table>
+</body>
+</html>
